@@ -8,14 +8,6 @@ find_package(catkin REQUIRED COMPONENTS
   message_generation
 )
 
-## Generate services in the 'srv' folder
-add_service_files(
-  DIRECTORY
-    srv
-  FILES
-    ExecuteMoveItPlan.srv
-)
-
 ## Generate added messages and services with any dependencies listed here
 generate_messages(
   DEPENDENCIES
